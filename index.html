@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- 1-Header top section start -->
+    <!-- 1-Header top section end-->
+ 
+    <!-- 2-Header bottom section start -->
+    <!-- 2-Header bottom section end-->
+
+    <!-- 3-Showcase  top section start -->
+     <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+    <!-- 3-Showcase top section end-->
+
+    <!-- 4-Showcase bottom section start -->
+    <!-- 4-Showcase bottom section end-->
+
+    <!-- 5-Popular section start -->
+    <!-- 5-Popular section end -->
+
+    <!-- 6-Bestsellers section start -->
+    <!-- 6-Bestsellers section end -->
+
+    <!-- 7-Discounted products section start -->
+    <!-- 7-Discounted products section end -->
+
+    <!-- 8-Articles section start -->
+    <!-- 8-Articles section end -->
+
+    <!-- 9-Footer section start -->
+    <!-- 9-Footer section end -->
+
+
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
