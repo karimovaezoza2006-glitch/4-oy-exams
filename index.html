@@ -4,22 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="./output.css" rel="stylesheet">
      <script src="https://cdn.tailwindcss.com"></script>
      <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+     <style>
+    .sticky-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background-color: white;
+    }
+  </style>
 </head>
 <body>
-    <!-- 1-Header top section start -->
-    <!-- 1-Header top section end-->
+    <!-- 1-Header section start -->
+     <header class="sticky-header border-b border-gray-200 shadow-sm" data-aos="fade-down" data-aos-duration="800">
+    <!-- TOP BAR -->
+    <div class="w-full bg-gray-50 text-gray-600 text-sm">
+      <div class="max-w-[1400px] mx-auto flex justify-between items-center px-4 py-2 flex-wrap gap-2">
+        <div class="flex items-center gap-[30px]">
+          <span class="flex items-center gap-1">
+            <img src="./img/location.svg">
+            <a href="https://www.google.com/maps" class="text-blue-600 hover:underline">Ташкент</a>
+          </span>
+          <span class="text-gray-300">|</span>
+          <a href="#" class="flex items-center gap-1 hover:text-blue-600 text-[#5d78ff]">
+            <img src="./img/zon.svg">
+            Продавайте на Zon.uz
+          </a>
+          <span class="text-gray-300">|</span>
+          <a href="#" class="hover:text-blue-600 flex items-center gap-1  text-[#6682a9]">
+             <img src="./img/zon2.svg"> 
+             Покупать как юрлицо
+          </a>
+            
+            </a>
+          <span class="text-gray-300">|</span>
+          <a href="#" class="hover:text-blue-600 text-[#6682a9]">Помощь</a>
+          <span class="text-gray-300">|</span>
+          <a href="#" class="hover:text-blue-600 text-[#6682a9] ">Контакты</a> </a>
+        </div>
+        <div class="flex items-center gap-2">
+         <img src="./img/telephone.svg" alt="Phone Icon">
+          <span class="font-bold text-[15px] text-black">+998 78 555-35-00</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM BAR -->
+    <div class="bg-white py-3">
+      <div class="max-w-[1400px] mx-auto flex items-center justify-between px-4 flex-wrap gap-2">
+        <!-- Logo -->
+        <div class="flex items-center gap-2">
+          <a href="./index.html"><img src="./img/logo.svg" alt="Zon.uz logo" class="h-7"></a>
+        </div>
+
+        <!-- Catalog Button -->
+        <button class="flex items-center gap-1 px-4 py-2 hover:bg-gray-100 border w-[127px] h-10 rounded-[5px] border-solid border-[#011c47]">
+          <img src="./img/korzinka.svg" alt="Catalog Icon" class="font-bold text-base text-[#011c47]">
+         
+          Каталог
+        </button>
+
+        <!-- Search -->
+        <div class="flex-1 max-w-[600px]">
+          <div class="relative">
+            <input type="text" placeholder="Найти товары" class="w-full border border-gray-300 rounded-md py-2 pl-4 pr-10 focus:ring-2 focus:ring-blue-400 outline-none">
+            <button class="absolute right- top-1/2 -translate-y-1/2 text-gray-500 hover:text-blue-600 bg-[#d1dae6] w-12 h-10 rounded-[0_5px_5px_0] border-r-[#6682a9] border-y-[#6682a9] ">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg " >
+            <path d="M16.25 8.125C16.25 9.91797 15.668 11.5742 14.6875 12.918L19.6328 17.8672C20.1211 18.3555 20.1211 19.1484 19.6328 19.6367C19.1445 20.125 18.3516 20.125 17.8633 19.6367L12.918 14.6875C11.5742 15.6719 9.91797 16.25 8.125 16.25C3.63672 16.25 0 12.6133 0 8.125C0 3.63672 3.63672 0 8.125 0C12.6133 0 16.25 3.63672 16.25 8.125ZM8.125 13.75C8.86369 13.75 9.59514 13.6045 10.2776 13.3218C10.9601 13.0391 11.5801 12.6248 12.1025 12.1025C12.6248 11.5801 13.0391 10.9601 13.3218 10.2776C13.6045 9.59514 13.75 8.86369 13.75 8.125C13.75 7.38631 13.6045 6.65486 13.3218 5.97241C13.0391 5.28995 12.6248 4.66985 12.1025 4.14752C11.5801 3.62519 10.9601 3.21086 10.2776 2.92818C9.59514 2.64549 8.86369 2.5 8.125 2.5C7.38631 2.5 6.65486 2.64549 5.97241 2.92818C5.28995 3.21086 4.66985 3.62519 4.14752 4.14752C3.62519 4.66985 3.21086 5.28995 2.92818 5.97241C2.64549 6.65486 2.5 7.38631 2.5 8.125C2.5 8.86369 2.64549 9.59514 2.92818 10.2776C3.21086 10.9601 3.62519 11.5801 4.14752 12.1025C4.66985 12.6248 5.28995 13.0391 5.97241 13.3218C6.65486 13.6045 7.38631 13.75 8.125 13.75Z" fill="#6682A9" />
+          </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Icons -->
+        <div class="flex items-center gap-4">
+          <button class="hover:text-blue-600">
+           <img src="./img/savat.svg">
+          </button>
+          <button>
+             <img src="./img/map.svg" alt="Catalog Icon" class="font-bold text-base text-[#011c47]">
+          </button>
+          <select class="border-none bg-transparent focus:outline-none text-sm">
+            <option>RU</option>
+            <option>UZ</option>
+            <option>EN</option>
+          </select>
+          <button>
+             <img src="./img/item.svg" alt="Catalog Icon" class="font-bold text-base text-[#011c47]">
+          </button>
+          <button class="p-2 rounded-md hover:bg-gray-100">
+          <img src="./img/Item menu.svg">
+          </button>
+          <button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+            Войти
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- 2-Header top section end-->
  
-    <!-- 2-Header bottom section start -->
-    <!-- 2-Header bottom section end-->
 
     <!-- 3-Showcase  top section start -->
-     <div class="swiper mySwiper">
+    <section class="max-w-[1400px] mx-auto my-[50px]">
+       <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide"><img src="./img/Container.png"> </div>
       <div class="swiper-slide">Slide 2</div>
       <div class="swiper-slide">Slide 3</div>
       <div class="swiper-slide">Slide 4</div>
@@ -33,6 +126,7 @@
     <div class="swiper-button-prev"></div>
     <div class="swiper-pagination"></div>
   </div>
+    </section>
     <!-- 3-Showcase top section end-->
 
     <!-- 4-Showcase bottom section start -->
@@ -57,7 +151,7 @@
 
 <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
@@ -74,5 +168,9 @@
       },
     });
   </script>
+    <script>
+    AOS.init();
+  </script>
+ 
 </body>
 </html>
