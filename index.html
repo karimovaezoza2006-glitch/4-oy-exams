@@ -61,28 +61,46 @@
         </div>
 
         <!-- Catalog Button -->
-        <button class="flex items-center gap-1 px-4 py-2 hover:bg-gray-100 border w-[127px] h-10 rounded-[5px] border-solid border-[#011c47]">
+        <button class="flex items-center gap-1 px-4 py-2 hover:bg-gray-100 border w-[157px] h-10 rounded-[5px] border-solid border-[#011c47]">
           <img src="./img/korzinka.svg" alt="Catalog Icon" class="font-bold text-base text-[#011c47]">
          
-          Каталог
+        <a href="./adminpanel.html">Admin Panel</a> 
         </button>
 
         <!-- Search -->
-        <div class="flex-1 max-w-[600px]">
-          <div class="relative">
-            <input type="text" placeholder="Найти товары" class="w-full border border-gray-300 rounded-md py-2 pl-4 pr-10 focus:ring-2 focus:ring-blue-400 outline-none">
-            <button class="absolute right- top-1/2 -translate-y-1/2 text-gray-500 hover:text-blue-600 bg-[#d1dae6] w-12 h-10 rounded-[0_5px_5px_0] border-r-[#6682a9] border-y-[#6682a9] ">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg " >
-            <path d="M16.25 8.125C16.25 9.91797 15.668 11.5742 14.6875 12.918L19.6328 17.8672C20.1211 18.3555 20.1211 19.1484 19.6328 19.6367C19.1445 20.125 18.3516 20.125 17.8633 19.6367L12.918 14.6875C11.5742 15.6719 9.91797 16.25 8.125 16.25C3.63672 16.25 0 12.6133 0 8.125C0 3.63672 3.63672 0 8.125 0C12.6133 0 16.25 3.63672 16.25 8.125ZM8.125 13.75C8.86369 13.75 9.59514 13.6045 10.2776 13.3218C10.9601 13.0391 11.5801 12.6248 12.1025 12.1025C12.6248 11.5801 13.0391 10.9601 13.3218 10.2776C13.6045 9.59514 13.75 8.86369 13.75 8.125C13.75 7.38631 13.6045 6.65486 13.3218 5.97241C13.0391 5.28995 12.6248 4.66985 12.1025 4.14752C11.5801 3.62519 10.9601 3.21086 10.2776 2.92818C9.59514 2.64549 8.86369 2.5 8.125 2.5C7.38631 2.5 6.65486 2.64549 5.97241 2.92818C5.28995 3.21086 4.66985 3.62519 4.14752 4.14752C3.62519 4.66985 3.21086 5.28995 2.92818 5.97241C2.64549 6.65486 2.5 7.38631 2.5 8.125C2.5 8.86369 2.64549 9.59514 2.92818 10.2776C3.21086 10.9601 3.62519 11.5801 4.14752 12.1025C4.66985 12.6248 5.28995 13.0391 5.97241 13.3218C6.65486 13.6045 7.38631 13.75 8.125 13.75Z" fill="#6682A9" />
-          </svg>
-            </button>
-          </div>
-        </div>
+       <div class="flex-1 max-w-[600px]">
+  <div class="relative">
+    <input 
+      type="text" 
+      placeholder="Mahsulotlarni qidirish..." 
+      class="w-full border border-[#6682a9] rounded-md py-2 pl-4 pr-12 focus:ring-2 focus:ring-blue-400 outline-none"
+    >
+    <button 
+      class="absolute top-1/2 right-0 -translate-y-1/2 flex items-center justify-center 
+             bg-[#d1dae6] hover:bg-[#c4d3ea] text-blue-700 w-9 h-10 rounded-md 
+             border transition"
+    >
+      <svg 
+        width="18" 
+        height="18" 
+        viewBox="0 0 20 20" 
+        fill="none" 
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path 
+          d="M16.25 8.125C16.25 9.91797 15.668 11.5742 14.6875 12.918L19.6328 17.8672C20.1211 18.3555 20.1211 19.1484 19.6328 19.6367C19.1445 20.125 18.3516 20.125 17.8633 19.6367L12.918 14.6875C11.5742 15.6719 9.91797 16.25 8.125 16.25C3.63672 16.25 0 12.6133 0 8.125C0 3.63672 3.63672 0 8.125 0C12.6133 0 16.25 3.63672 16.25 8.125ZM8.125 13.75C8.86369 13.75 9.59514 13.6045 10.2776 13.3218C10.9601 13.0391 11.5801 12.6248 12.1025 12.1025C12.6248 11.5801 13.0391 10.9601 13.3218 10.2776C13.6045 9.59514 13.75 8.86369 13.75 8.125C13.75 7.38631 13.6045 6.65486 13.3218 5.97241C13.0391 5.28995 12.6248 4.66985 12.1025 4.14752C11.5801 3.62519 10.9601 3.21086 10.2776 2.92818C9.59514 2.64549 8.86369 2.5 8.125 2.5C7.38631 2.5 6.65486 2.64549 5.97241 2.92818C5.28995 3.21086 4.66985 3.62519 4.14752 4.14752C3.62519 4.66985 3.21086 5.28995 2.92818 5.97241C2.64549 6.65486 2.5 7.38631 2.5 8.125C2.5 8.86369 2.64549 9.59514 2.92818 10.2776C3.21086 10.9601 3.62519 11.5801 4.14752 12.1025C4.66985 12.6248 5.28995 13.0391 5.97241 13.3218C6.65486 13.6045 7.38631 13.75 8.125 13.75Z" 
+          fill="#446699" 
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+
 
         <!-- Icons -->
         <div class="flex items-center gap-4">
           <button class="hover:text-blue-600">
-           <img src="./img/savat.svg">
+          <a href="./karzinka.html"> <img src="./img/savat.svg"></a>
           </button>
           <button>
              <img src="./img/map.svg" alt="Catalog Icon" class="font-bold text-base text-[#011c47]">
@@ -113,14 +131,8 @@
        <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="./img/Container.png"> </div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
+      <div class="swiper-slide"><img src="https://zon.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmetabo_mobile.622afda0.webp&w=3840&q=100" class="w-[1400px] h-[415px] rounded-[9px]"> </div>
+      <div class="swiper-slide"><img src="https://zon.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcrown-mobile.d37ec1a3.webp&w=3840&q=100" class="w-[1400px] h-[415px] rounded-[9px]"></div>
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
@@ -130,6 +142,57 @@
     <!-- 3-Showcase top section end-->
 
     <!-- 4-Showcase bottom section start -->
+     <section class="max-w-[1400px] mx-auto my-[50px]">
+      <div class="flex items-center justify-between gap-6 grid-cols-1 md:grid-cols-4">
+      <!-- Card 1 -->
+      <div
+        class="bg-gray-50 shadow-sm hover:shadow-md transition p-4  text-center flex flex-col justify-between w-[265px] h-[180px] rounded-[5px]"
+        data-aos="fade-up"
+      >
+        <div>
+          <h3 class="font-semibold text-gray-800 mb-2">Добро пожаловать!</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Войдите, чтобы оставлять отзывы и пользоваться другими функциями авторизованных пользователей.
+          </p>
+        </div>
+        <button
+          class="bg-indigo-500 text-white px-4 py-2 rounded-md hover:bg-indigo-600 transition"
+        >
+          Войти в личный кабинет
+        </button>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-gray-200 hover:bg-gray-300 transition  p-4 text-center flex items-center gap-6 justify-center w-[265px] h-[180px] rounded-[5px]"
+        data-aos="fade-up" data-aos-delay="100" >
+        <div class="font-bold text-lg text-center text-[#6682a9]">
+          Покупать<br> как юрлицо
+        </div>
+        <div>
+          <img src="./img/backet.svg">
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div
+        class="bg-indigo-100  p-4 text-center flex flex-col justify-center hover:bg-indigo-200 transition w-[265px] h-[180px] rounded-[5px]"
+        data-aos="fade-up" 
+        data-aos-delay="200"
+      >
+        <img src="./img/docZon.svg" class="mx-auto mb-4">
+        <p class="font-bold text-lg text-center text-[#011c47]">Электронный документооборот</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div
+        class="bg-gradient-to-r from-purple-500 to-pink-500 p-4 text-center w-[265px] h-[180px] rounded-[5px] text-white flex flex-col justify-center hover:opacity-90 transition"
+        data-aos="fade-up"
+  data-aos-delay="300">
+        <img src="./img/foodee-logo-white.4fab4997.svg fill.png" class="mx-auto mb-4">
+        <p class="font-bold text-lg text-center text-white">Онлайн меню для ресторанов и гостиниц</p>
+      </div>
+    </div>
+     </section>
     <!-- 4-Showcase bottom section end-->
 
     <!-- 5-Popular section start -->
@@ -142,9 +205,210 @@
     <!-- 7-Discounted products section end -->
 
     <!-- 8-Articles section start -->
+     <section>
+       <div class="max-w-[1400px] mx-auto my-[50px]">
+      <!-- Заголовок -->
+      <div class="flex justify-start items-center mb-6 gap-6">
+        <h2 class="font-medium text-2xl tracking-[0.02em] text-black">Статьи</h2>
+        <a
+          href="#" class=" hover:text-sky-700 text-sm  font-medium text-[15px] text-center tracking-[0.03em] text-[#1b7da2] transition  border w-[129px] h-[29px] rounded-[15px] border-solid border-[#ddd]" >
+          Смотреть все
+        </a>
+      </div>
+
+      <!-- Сетка статей -->
+      <div
+        class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5"
+        data-aos="fade-up"
+      >
+        <!-- Карточка 1 -->
+        <div
+          class="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-gray-200 overflow-hidden flex flex-col"
+          data-aos="fade-up"
+        >
+          <img
+            src="./img/card1.png" alt="Виброметры"class="w-full h-40 object-cover" />
+          <div class="p-3 flex flex-col flex-grow">
+            <span class="text-xs text-gray-500 mb-1">13.06.2023</span>
+            <h3 class="text-sm font-medium text-gray-800">
+              Виброметры для двигателей и механизмов
+            </h3>
+          </div>
+        </div>
+
+        <!-- Карточка 2 -->
+        <div
+          class="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-gray-200 overflow-hidden flex flex-col"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <img
+            src="./img/card2.png"
+            alt="Преобразователь"
+            class="w-full h-40 object-cover"
+          />
+          <div class="p-3 flex flex-col flex-grow">
+            <span class="text-xs text-gray-500 mb-1">12.06.2023</span>
+            <h3 class="text-sm font-medium text-gray-800">
+              Частотный преобразователь — что такое и для чего он нужен
+            </h3>
+          </div>
+        </div>
+
+        <!-- Карточка 3 -->
+        <div
+          class="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-gray-200 overflow-hidden flex flex-col"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <img
+            src="./img/card3.png"
+            alt="Тахометр"
+            class="w-full h-40 object-cover"
+          />
+          <div class="p-3 flex flex-col flex-grow">
+            <span class="text-xs text-gray-500 mb-1">11.06.2023</span>
+            <h3 class="text-sm font-medium text-gray-800">
+              Зачем нужен такой прибор, как лазерный тахометр?
+            </h3>
+          </div>
+        </div>
+
+        <!-- Карточка 4 -->
+        <div
+          class="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-gray-200 overflow-hidden flex flex-col"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <img
+            src="./img/card4.png"
+            alt="Люксометр"
+            class="w-full h-40 object-cover"
+          />
+          <div class="p-3 flex flex-col flex-grow">
+            <span class="text-xs text-gray-500 mb-1">10.04.2023</span>
+            <h3 class="text-sm font-medium text-gray-800">
+              Люксометр - Измеритель яркости и освещённости
+            </h3>
+          </div>
+        </div>
+
+        <!-- Карточка 5 -->
+        <div
+          class="bg-white rounded-lg shadow-sm hover:shadow-md transition border border-gray-200 overflow-hidden flex flex-col"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
+          <img
+            src="./img/card5.png"
+            alt="Термометр"
+            class="w-full h-40 object-cover"
+          />
+          <div class="p-3 flex flex-col flex-grow">
+            <span class="text-xs text-gray-500 mb-1">09.04.2023</span>
+            <h3 class="text-sm font-medium text-gray-800">
+              Термометр для измерения температуры объекта
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     </section>
     <!-- 8-Articles section end -->
 
     <!-- 9-Footer section start -->
+      <footer class="bg-white py-4   border-gray-200">
+    <div class="max-w-[1450px] mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-6">
+      
+      <!-- 1-qism: Kontaktlar -->
+   <div data-aos="fade-up" class="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
+  <!-- Sarlavha -->
+  <h3 class="text-[17px] font-semibold text-gray-800 mb-3">Контакты</h3>
+
+  <!-- Call center -->
+  <p class="text-[15px] text-gray-700 leading-relaxed">
+    <span class="text-blue-600 font-medium">Call-центр:</span><br>
+    +998 (78) 555‒35‒00
+  </p>
+
+  <!-- Email -->
+  <p class="text-[15px] text-gray-700 leading-relaxed mt-3">
+    <span class="text-blue-600 font-medium">Эл. почта:</span><br>
+    info@zon.uz
+  </p>
+
+  <!-- Ish vaqti -->
+  <div class="mt-4">
+    <p class="text-sm text-gray-600 mb-1">График работы:</p>
+    <p class="text-sm text-gray-700">В будние — <span class="font-medium">09:00 до 18:00</span></p>
+    <p class="text-sm text-gray-700">Суббота — <span class="font-medium">09:00 до 18:00</span></p>
+  </div>
+</div>
+
+
+      <!-- 2-qism: 2ta card  -->
+      <div class="flex flex-col gap-4">
+        
+        <!-- 2.1 ijtimoiy tarmoqlar -->
+        <div data-aos="fade-up" data-aos-delay="100" class="p-6 border rounded-xl shadow-sm">
+          <h3 class="font-semibold text-gray-800 mb-3">Мы в социальных сетях</h3>
+          <div class="flex justify-between text-2xl">
+            <a href="#" class="text-blue-500 hover:scale-110 transition"><img src="./img/Link → tg.svg"> </a>
+            <a href="#" class="text-red-500 hover:scale-110 transition"><img src="./img/Link → youtube.svg"> </a>
+            <a href="#" class="text-pink-500 hover:scale-110 transition"><img src="./img/Link → inst.svg"> </a>
+            <a href="#" class="text-blue-700 hover:scale-110 transition"><img src="./img/Link → fb.svg"> </i></a>
+          </div>
+        </div>
+
+        <!-- 2.2 to‘lov tizimlari -->
+        <div data-aos="fade-up" data-aos-delay="200" class="p-6 border rounded-xl shadow-sm flex flex-col items-center">
+          <div class="flex items-center gap-3 mb-2">
+            <img src="./img/payme.svg" alt="Payme" class="h-8">
+            <img src="./img/Link → click.svg" alt="Click" class="h-8">
+          </div>
+          <p class="font-normal text-[15px] text-center text-[#222]">Интернет магазин Zon.uz 2017-2024<br>Все права защищены</p>
+        </div>
+      </div>
+
+      <!-- 3-qism: Kompaniya -->
+      <div data-aos="fade-up" data-aos-delay="300" class="p-4 border rounded-xl shadow-sm">
+        <h3 class="font-semibold text-gray-800 mb-2">Компания</h3>
+       <div class="flex items-start justify-between">
+         <div>
+          <ul class="text-sm text-blue-600 space-y-1">
+          <li><a href="#" class="hover:underline">О нас</a></li>
+          <li><a href="#" class="hover:underline">Реквизиты</a></li>
+          <li><a href="#" class="hover:underline">Контакты</a></li>
+          <li><a href="#" class="hover:underline">Вакансии</a></li>
+          <li><a href="#" class="hover:underline">Карта сайта</a></li>
+          <li><a href="#" class="hover:underline">Публичная оферта</a></li>
+        </ul>
+        </div>
+        <div>
+         <ul class="text-sm text-blue-600 space-y-1">
+          <li><a href="#" class="hover:underline">Продавайте на Zon.uz</a></li>
+          <li><a href="#" class="hover:underline">Покупать как юрлицо</a></li>
+         
+        </ul>
+        </div>
+       </div>
+      </div>
+
+      <!-- 4-qism: Yordam -->
+      <div data-aos="fade-up" data-aos-delay="400" class="p-4 border rounded-xl shadow-sm">
+        <h3 class="font-semibold text-gray-800 mb-2">Помощь</h3>
+        <ul class="text-sm text-blue-600 space-y-1">
+          <li><a href="#" class="hover:underline">Вопросы и ответы</a></li>
+          <li><a href="#" class="hover:underline">Условия рассрочки</a></li>
+          <li><a href="#" class="hover:underline">Способ оплаты</a></li>
+          <li><a href="#" class="hover:underline">Доставка</a></li>
+          <li><a href="#" class="hover:underline">Возврат товаров</a></li>
+          <li><a href="#" class="hover:underline">Сервисные центры</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
     <!-- 9-Footer section end -->
 
 

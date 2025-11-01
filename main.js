@@ -1,14 +1,14 @@
-
-let data = [
-
-    
-]
-fetch("https://6904846c6b8dabde49640f3d.mockapi.io/name/ex", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-        title: "Lyubuoy soz",
-    })
-})
+fetch("https://69035efbd0f10a340b23ed3d.mockapi.io/api/products")
+  .then(response => {
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+    return response.json();
+  })
+  .then(data => {
+    console.log(data);
+    // data — bu array bo‘lishi mumkin, ichida product obyektlari
+  })
+  .catch(error => {
+    console.error("Fetch error:", error);
+  });
